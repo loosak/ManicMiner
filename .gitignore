@@ -1,0 +1,55 @@
+# Object files
+*.o
+*.ko
+*.obj
+*.elf
+
+# Libraries
+*.lib
+*.a
+*.la
+*.lo
+
+# Executables
+*.exe
+*.out
+*.app
+*.dSYM/
+*.so
+*.so.*
+
+# Debug files
+*.gch
+*.pch
+
+# Compiled resource files
+*.res
+*.resources
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+*.~*
+
+# Dependency and build files
+*.d
+*.dSYM/
+CMakeFiles/
+CMakeCache.txt
+build/
+cmake-build-*/
+linux/
+manicminer
+
+# IDE specific files
+.vscode/
+.idea/
+*.code-workspace
+
+# Other
+tags
+.DS_Store
+Thumbs.db

@@ -6,8 +6,8 @@ TARGET = manicminer
 
 CC = gcc
 
-CFLAGS = -pedantic -Wall -Wextra -g -MMD
-LDFLAGS = -lSDL2
+CFLAGS = -pedantic -Wall -Wextra -g -MMD -I/opt/homebrew/include/SDL2 -D_THREAD_SAFE
+LDFLAGS = -L/opt/homebrew/lib -lSDL2
 
 SRC = src
 O = linux
